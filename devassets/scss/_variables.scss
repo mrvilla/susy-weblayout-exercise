@@ -1,0 +1,44 @@
+// =================================== COLORS
+
+$black : #000000;
+$white : #FFFFFF;
+$grey  : #9E9E9E;
+$cyan  : #00BCD4;
+// =============================== GREY TONES
+
+$grey-050: #FAFAFA;
+$grey-100: #F5F5F5;
+$grey-200: #EEEEEE;
+$grey-300: #E0E0E0;
+$grey-400: #BDBDBD;
+$grey-500: #9E9E9E;
+$grey-600: #757575;
+$grey-700: #616161;
+$grey-800: #424242;
+$grey-900: #212121;
+// =============================== CYAN TONES
+
+$cyan-050: #E0F7FA;
+$cyan-100: #B2EBF2;
+$cyan-200: #80DEEA;
+$cyan-300: #4DD0E1;
+$cyan-400: #26C6DA;
+$cyan-500: #00BCD4;
+$cyan-600: #00ACC1;
+$cyan-700: #0097A7;
+$cyan-800: #00838F;
+$cyan-900: #006064;
+
+
+// ======================================== SUSY GRID
+
+$susy: (
+	columns: 12,
+	gutters: 1/4,
+	global-box-sizing: border-box-sizing
+);
+// ======================================== GRID SIZES
+
+$small	: 30em;
+$medium	: 40em;
+$large	: 60em;

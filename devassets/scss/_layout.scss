@@ -1,0 +1,113 @@
+.wrap, .section-block, .layout {
+	@include susy-breakpoint($small) {
+		@include container(100%);
+	}
+	@include susy-breakpoint($medium) {
+		@include container(100%);
+	}
+	@include susy-breakpoint($large) {
+		@include container(90%);
+	}
+}
+.branding {
+	text-align: center;
+	@include susy-breakpoint($medium) {
+		@include span(4);
+		text-align: left;
+	}
+}
+.header-nav {
+	padding-top: 0;
+	text-align: center;
+	@include susy-breakpoint($medium) {
+		@include span(8 last);
+		padding-top: 2em;
+		text-align: right;
+	}
+}
+.section .article {
+	@include susy-breakpoint($small) {
+		@include span(12);
+	}
+	@include susy-breakpoint($medium $large) {
+		@include span(6);
+		&:nth-of-type(even) {
+			@include last;
+		}
+	}
+	@include susy-breakpoint($large) {
+		@include span(3);
+		&:last-child {
+			@include last;
+		}
+	}
+}
+.section-2 .image-block, .section-5 .article-text {
+	@include susy-breakpoint($large) {
+		@include span(6);
+	}
+}
+.section-2 .article-text, .section-5 .image-block-2 {
+	@include susy-breakpoint($large) {
+		@include span(6);
+		&:last-child {
+			@include last;
+		}
+	}
+}
+.section-3 .article-1 {
+	@include susy-breakpoint($large) {
+		@include span(4);
+		text-align: center;
+		&:last-child {
+			@include last;
+		}
+	}
+}
+.section-4 .article-2 {
+	@include susy-breakpoint($small) {
+		@include span(12);
+	}
+	@include susy-breakpoint($medium $large) {
+		@include span(6);
+		&:nth-of-type(even) {
+			@include last;
+		}
+	}
+	@include susy-breakpoint($large) {
+		@include span(6);
+		text-align: center;
+		&:last-child {
+			@include last;
+		}
+	}
+}
+.main-content {
+	@include susy-breakpoint($small) {
+		@include span(12);
+	}
+	@include susy-breakpoint($medium $large) {
+		@include span(6);
+	}
+	@include susy-breakpoint($large) {
+		@include span(8);
+	}
+}
+.aside {
+	@include susy-breakpoint($small) {
+		@include span(12);
+	}
+	@include susy-breakpoint($medium $large) {
+		@include span(6);
+		&:last-child {
+			@include last;
+		}
+	}
+	@include susy-breakpoint($large) {
+		@include span(4);
+		&:last-child {
+			@include last;
+		}
+	}
+}
+

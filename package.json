@@ -1,0 +1,17 @@
+{
+  "name": "begin_workflow",
+  "version": "1.0.0",
+  "description": "Start a workflow project",
+  "author": "Enrique Villa",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^3.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
