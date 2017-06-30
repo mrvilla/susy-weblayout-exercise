@@ -391,6 +391,7 @@ template {
 
 @media (min-width: 30em) {
   .wrap, .section-block, .layout {
+    padding: 2em;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto; }
@@ -401,6 +402,7 @@ template {
 
 @media (min-width: 40em) {
   .wrap, .section-block, .layout {
+    padding: 1em;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto; }
@@ -411,6 +413,7 @@ template {
 
 @media (min-width: 60em) {
   .wrap, .section-block, .layout {
+    padding: .8em;
     max-width: 90%;
     margin-left: auto;
     margin-right: auto; }
@@ -463,6 +466,57 @@ template {
     .section .article:last-child {
       float: right;
       margin-right: 0; } }
+
+@media (min-width: 30em) {
+  .article .design {
+    text-align: right; } }
+
+@media (min-width: 40em) {
+  .article .design {
+    text-align: right; } }
+
+@media (min-width: 60em) {
+  .article .design {
+    text-align: center; } }
+
+@media (min-width: 30em) {
+  .article img {
+    border-top-left-radius: 7em;
+    border-bottom-right-radius: 7em; }
+    .article img.banksy {
+      border-top-left-radius: 7em;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 7em; }
+    .article img.idea {
+      border-top-right-radius: 7em;
+      border-bottom-left-radius: 7em;
+      border-bottom-right-radius: 0; } }
+
+@media (min-width: 40em) {
+  .article img {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 7em; }
+    .article img.banksy {
+      border-top-left-radius: 7em;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 7em; }
+    .article img.idea {
+      border-top-right-radius: 7em;
+      border-bottom-left-radius: 7em;
+      border-bottom-right-radius: 0; } }
+
+@media (min-width: 60em) {
+  .article img {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 7em; }
+    .article img.banksy {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 7em; }
+    .article img.idea {
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 7em; } }
 
 @media (min-width: 60em) {
   .section-2 .image-block, .section-5 .article-text {
@@ -590,7 +644,6 @@ nav a {
   background: #212121; }
 
 .wrap, .section-block, .layout {
-  padding: 0.8em;
   background: #000000; }
 
 .header-nav ul {
@@ -610,25 +663,32 @@ nav a {
   height: auto;
   width: 100%; }
 
-.article img {
-  border-bottom-right-radius: 7em; }
-
 .image-block-2 img {
   border-top-left-radius: 15em;
   border-top-right-radius: 14em; }
 
-.article-1 .saying {
-  margin-top: -2em; }
-
 .article-1 {
   text-align: center; }
+  .article-1.saying {
+    margin-top: -2em; }
+
+.article-1 img {
+  text-align: center; }
+  .article-1 img.son-of-man {
+    border-top-right-radius: 12em;
+    border-bottom-right-radius: 12em; }
+
+.article-1 img {
+  text-align: center; }
+  .article-1 img.bob-ross {
+    border-radius: 50%; }
 
 .section-img .overlay {
   background: rgba(33, 33, 33, 0.6);
   border-radius: 1em; }
 
 .section-img .wide-section {
-  padding: 9.750em 0; }
+  padding: 13.750em 0; }
 
 .section-img {
   text-align: center; }
