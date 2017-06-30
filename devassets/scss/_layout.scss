@@ -1,11 +1,13 @@
 .wrap, .section-block, .layout {
+	padding: 2em;
+	@include container(94%);
 	@include susy-breakpoint($small) {
 		padding: 2em;
-		@include container(100%);
+		@include container(96%);
 	}
 	@include susy-breakpoint($medium) {
 		padding: 1em;
-		@include container(100%);
+		@include container(99%);
 	}
 	@include susy-breakpoint($large) {
 		padding: .8em;
@@ -98,6 +100,19 @@
 		}
 		border-top-left-radius: 0;
 		border-bottom-right-radius: 7em;
+	}
+
+}
+.section-img .wide-section {
+	padding: 3em 0;
+	@include susy-breakpoint($small) {
+		padding: 3em 0;
+	}
+	@include susy-breakpoint($medium) {
+		padding: 10.750em 0;
+	}
+	@include susy-breakpoint($large) {
+		padding: 13.750em 0;
 	}
 
 }
