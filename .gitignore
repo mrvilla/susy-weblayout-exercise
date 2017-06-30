@@ -48,6 +48,6 @@ composer.lock
 
 # Dependency files #
 #############
-node_modules
-bower_components
-devassests
+node_modules/
+bower_components/
+devassests/
